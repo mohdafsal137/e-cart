@@ -214,12 +214,3 @@ function App() {
 export default App
 
 
-{/* <label htmlFor="exampleDataList" className="form-label"> 
-</label>
-<select className="form-select" id="exampleDataList" style={{ width: '250px', height: '30px', marginLeft: '400px' }}>
- <option value="">seect</option>
- <option value="product1">Product 1</option>
- <option value="product2">Product 2</option>
- <option value="product3">Product 3</option>
-
-</select> */}
