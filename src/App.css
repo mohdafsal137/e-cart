@@ -1,0 +1,60 @@
+.dropdown{
+ border: 1px solid;
+}
+.rounddiv{
+  border-radius: 10px;
+  background-color: #ea7efc;
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+.downArrow{
+  font-size: 30px;
+  margin-top: 7px;
+}
+.profile{
+  height: 70px;
+  width: 70px;
+}
+.first{
+  border: 1px  solid rgb(213, 213, 213);
+}
+.proDiv{
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+}
+*{
+  font-family: "Arsenal", sans-serif;
+ 
+ 
+}
+
+::-webkit-scrollbar {
+    width: 8px; /* for horizontal scrollbars */
+    height: 8px; /* for vertical scrollbars */
+}
+.second{
+  border: 1px  solid rgb(213, 213, 213);
+}
+.button{
+  width: 80px;
+  height: 20px;
+  margin-top: 70px;
+  
+}
+.button2  {
+  width: 80px;
+  height: 20px; 
+}
+
+.list:hover{
+  background-color:#1a75ff ;
+}
+
+.third{
+  overflow: auto;
+}
+#mainbuttons:hover{
+  background-color:#1a75ff;
+}
