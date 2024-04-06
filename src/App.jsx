@@ -2,7 +2,6 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header'
-import profile from './assets/user.png'
 import { CiGrid42 } from "react-icons/ci";
 import Stack from 'react-bootstrap/Stack';
 import { IoStorefrontOutline } from "react-icons/io5";
@@ -12,7 +11,7 @@ import { BiSupport } from "react-icons/bi";
 import { HiOutlinePencilSquare } from "react-icons/hi2";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import product from './assets/camera.png'
+import product from './assets/vdo.jpg'
 import { FaPlus } from "react-icons/fa6";
 import { FaFilter } from "react-icons/fa";
 import Dropdown from 'react-bootstrap/Dropdown';
@@ -28,15 +27,15 @@ function App() {
     <>
       <Header />
       <div className='row'>
-        <div className='col-lg-3'>
+        <div className='col-lg-3  '>
 
           <div className='first rounded d-flex mt-4 ms-3' style={{ width: '250px', height: '100px' }}>
-            <div className='proDiv mt-3 ms-2'> <img className='profile' src={profile} alt="" /></div>
+            <div className='proDiv mt-3 ms-2'> <img className='profile' src='https://static.vecteezy.com/system/resources/previews/022/050/715/original/3d-verification-check-validate-png.png' alt="" /></div>
 
             <div className='ms-5 mt-2 '>
-              <h6 style={{ marginTop: '14px', fontSize: '19px', fontWeight: 'bold' }}>  Nabeel K N</h6>
+              <h6 style={{ marginTop: '14px', fontSize: '19px', fontWeight: 'bold' }}>Athul Kr</h6>
               <p className='text-success' style={{ fontSize: '13px', marginTop: '-10px', fontWeight: 'bold' }}> Verification Level 3</p>
-              <p style={{ color: '#a1a1a1', fontSize: '12px', marginTop: '-20px' }}> Ernamkulam ,India</p>
+              <p style={{ color: '#a1a1a1', fontSize: '12px', marginTop: '-20px' }}> Palakkad ,India</p>
             </div>
           </div>
 
@@ -92,15 +91,15 @@ function App() {
 
           </div>
         </div>
-<div className='col-lg-1' style={{backgroundColor: '#ebebeb' }}>
+<div className='col-lg-1' >
   {/* Products , orders , store settings */}
-  <div style={{marginTop:'170px'}}>
-<button className=' btn rounded shadow  ' id='mainbuttons' style={{width:'100px', height:'40px', marginLeft:'-4px'}}><p style={{fontSize:'13px', fontWeight:'bold'}}>Products</p></button>
+  <div style={{marginTop:'170px', marginLeft:'-70px'}}>
+<button className=' btn rounded shadow mt-3' id='mainbuttons' style={{width:'100px', height:'40px', marginLeft:'-4px'}}><p style={{fontSize:'13px', fontWeight:'bold'}}>Products</p></button>
 <button  className='  btn rounded shadow mt-3' id='mainbuttons' style={{width:'100px', height:'40px', marginLeft:'-4px'}}><p style={{fontSize:'13px', fontWeight:'bold'}}>Orders</p></button>
 <button  className=' btn rounded shadow mt-3'id='mainbuttons'  style={{width:'100px', height:'40px', marginLeft:'-4px'}}> <p style={{fontSize:'13px', fontWeight:'bold'}}>Store settings</p></button>
 </div>
 </div>
-        <div className='col-lg-8' style={{ backgroundColor: '#ebebeb' }}>
+        <div className='col-lg-8 p-5'  style={{backgroundColor: '#ebebeb' }}>
 
           {/* dropdowns */}
           <div className='d-flex mt-4 gap-3' style={{ marginLeft: '200px' }} >
@@ -168,12 +167,12 @@ function App() {
 
               <Card style={{ width: '160px', height: '160px' }} className='border shadow'>
                 <ThreeDot/>
-                <Card.Img variant="top" src={product}  style={{marginTop:'-40px'}}/>
+                <Card.Img className='' variant="top" src={product}  style={{marginTop:'-40px'}}/>
                 <Card.Body style={{ width: '160px', height: '70px' }} className='border shadow'>
-                  <Card.Title style={{ fontSize: '15px', marginTop: '-10px' }}><h6 style={{ fontWeight: 'bold' }}>Canon 1500D for rent</h6> </Card.Title>
+                  <Card.Title style={{ fontSize: '15px', marginTop: '-10px' }}><h6 style={{ fontWeight: 'bold' }}>Canon 300D for rent</h6> </Card.Title>
                   <Card.Text style={{ fontSize: '10px', marginTop: '-5px' }}>
 
-                    <p style={{ marginTop: '-8px', fontWeight: 'bolder' }}> From <span className='text-primary'> ₹1,00,000</span></p>
+                    <p style={{ marginTop: '-8px', fontWeight: 'bolder' }}> From <span className='text-primary'> ₹12,000</span></p>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -185,7 +184,7 @@ function App() {
                   <Card.Title style={{ fontSize: '15px', marginTop: '-10px' }}><h6 style={{ fontWeight: 'bold' }}>Canon 1500D for rent</h6> </Card.Title>
                   <Card.Text style={{ fontSize: '10px', marginTop: '-5px' }}>
 
-                    <p style={{ marginTop: '-8px', fontWeight: 'bolder' }}> From <span className='text-primary'> ₹1,00,000</span></p>
+                    <p style={{ marginTop: '-8px', fontWeight: 'bolder' }}> From <span className='text-primary'> ₹15,000</span></p>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -194,10 +193,10 @@ function App() {
               <ThreeDot/>
                 <Card.Img variant="top" src={product}  style={{marginTop:'-40px'}}/>
                 <Card.Body style={{ width: '160px', height: '70px' }} className='border shadow'>
-                  <Card.Title style={{ fontSize: '15px', marginTop: '-10px' }}><h6 style={{ fontWeight: 'bold' }}>Canon 1500D for rent</h6> </Card.Title>
+                  <Card.Title style={{ fontSize: '15px', marginTop: '-10px' }}><h6 style={{ fontWeight: 'bold' }}>Canon 700D for rent</h6> </Card.Title>
                   <Card.Text style={{ fontSize: '10px', marginTop: '-5px' }}>
 
-                    <p style={{ marginTop: '-8px', fontWeight: 'bolder' }}> From <span className='text-primary'> ₹1,00,000</span></p>
+                    <p style={{ marginTop: '-8px', fontWeight: 'bolder' }}> From <span className='text-primary'> ₹17,000</span></p>
                   </Card.Text>
                 </Card.Body>
               </Card>
