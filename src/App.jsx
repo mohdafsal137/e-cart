@@ -33,9 +33,9 @@ function App() {
             <div className='proDiv mt-3 ms-2'> <img className='profile' src='https://static.vecteezy.com/system/resources/previews/022/050/715/original/3d-verification-check-validate-png.png' alt="" /></div>
 
             <div className='ms-5 mt-2 '>
-              <h6 style={{ marginTop: '14px', fontSize: '19px', fontWeight: 'bold' }}>Athul Kr</h6>
+              <h6 style={{ marginTop: '14px', fontSize: '19px', fontWeight: 'bold' }}>AFSAL S</h6>
               <p className='text-success' style={{ fontSize: '13px', marginTop: '-10px', fontWeight: 'bold' }}> Verification Level 3</p>
-              <p style={{ color: '#a1a1a1', fontSize: '12px', marginTop: '-20px' }}> Palakkad ,India</p>
+              <p style={{ color: '#a1a1a1', fontSize: '12px', marginTop: '-20px' }}> Kerala ,India</p>
             </div>
           </div>
 
@@ -93,7 +93,7 @@ function App() {
         </div>
 <div className='col-lg-1' >
   {/* Products , orders , store settings */}
-  <div style={{marginTop:'170px', marginLeft:'-70px'}}>
+  <div style={{marginTop:'170px', marginLeft:'-10px'}}>
 <button className=' btn rounded shadow mt-3' id='mainbuttons' style={{width:'100px', height:'40px', marginLeft:'-4px'}}><p style={{fontSize:'13px', fontWeight:'bold'}}>Products</p></button>
 <button  className='  btn rounded shadow mt-3' id='mainbuttons' style={{width:'100px', height:'40px', marginLeft:'-4px'}}><p style={{fontSize:'13px', fontWeight:'bold'}}>Orders</p></button>
 <button  className=' btn rounded shadow mt-3'id='mainbuttons'  style={{width:'100px', height:'40px', marginLeft:'-4px'}}> <p style={{fontSize:'13px', fontWeight:'bold'}}>Store settings</p></button>
@@ -165,9 +165,9 @@ function App() {
               </Button>{' '}
 
 
-              <Card style={{ width: '160px', height: '160px' }} className='border shadow'>
+              <Card style={{ width: '160px', height: '200px' }} className='border shadow'>
                 <ThreeDot/>
-                <Card.Img className='' variant="top" src={product}  style={{marginTop:'-40px'}}/>
+                <Card.Img className='' variant="top" src={product}  style={{marginTop:'-10px'}}/>
                 <Card.Body style={{ width: '160px', height: '70px' }} className='border shadow'>
                   <Card.Title style={{ fontSize: '15px', marginTop: '-10px' }}><h6 style={{ fontWeight: 'bold' }}>Canon 300D for rent</h6> </Card.Title>
                   <Card.Text style={{ fontSize: '10px', marginTop: '-5px' }}>
@@ -177,9 +177,9 @@ function App() {
                 </Card.Body>
               </Card>
 
-              <Card style={{ width: '160px', height: '160px' }} className='border shadow'>
+              <Card style={{ width: '160px', height: '200px' }} className='border shadow'>
               <ThreeDot/>
-                <Card.Img variant="top" src={product}  style={{marginTop:'-40px'}} />
+                <Card.Img variant="top" src={product}  style={{marginTop:'-10px'}} />
                 <Card.Body style={{ width: '160px', height: '70px' }} className='border shadow'>
                   <Card.Title style={{ fontSize: '15px', marginTop: '-10px' }}><h6 style={{ fontWeight: 'bold' }}>Canon 1500D for rent</h6> </Card.Title>
                   <Card.Text style={{ fontSize: '10px', marginTop: '-5px' }}>
@@ -189,9 +189,9 @@ function App() {
                 </Card.Body>
               </Card>
 
-              <Card style={{ width: '160px', height: '160px' }} className='border shadow'>
+              <Card style={{ width: '160px', height: '200px' }} className='border shadow'>
               <ThreeDot/>
-                <Card.Img variant="top" src={product}  style={{marginTop:'-40px'}}/>
+                <Card.Img variant="top" src={product}  style={{marginTop:'-10px'}}/>
                 <Card.Body style={{ width: '160px', height: '70px' }} className='border shadow'>
                   <Card.Title style={{ fontSize: '15px', marginTop: '-10px' }}><h6 style={{ fontWeight: 'bold' }}>Canon 700D for rent</h6> </Card.Title>
                   <Card.Text style={{ fontSize: '10px', marginTop: '-5px' }}>
